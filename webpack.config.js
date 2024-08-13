@@ -5,6 +5,7 @@ module.exports = withModuleFederationPlugin({
   remotes: {
     //"mfe1": "http://localhost:3000/remoteEntry.js",
     "mf-shopping": "http://localhost:4201/remoteEntry.js",
+    "mf-payment": "http://localhost:4202/remoteEntry.js",
   },
 
   shared: {
